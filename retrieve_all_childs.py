@@ -16,7 +16,7 @@ def connect_to_jira():
     """
     Establish connection to Jira using Personal Access Token
     """
-    host = "https://jira.server.com/"
+    host = "https://jira.server.com/" #set your Server
     pat = 'MY TOKEN'  # Replace with your actual Personal Access Token
     
     # Set up headers with Bearer token authentication
